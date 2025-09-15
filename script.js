@@ -1,4 +1,3 @@
-// Simple form handler: opens mail client with form data
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("planForm");
   const status = document.getElementById("formStatus");
