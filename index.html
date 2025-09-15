@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Empordà Cycling & Training Camps — Tailored Trips for Cyclists, Runners & Triathletes</title>
+  <title>Empordà Cycling & Training Camps — Tailored Trips</title>
   <meta name="description" content="Tailored cycling tours and training camps in Empordà, Catalonia. Morning rides, great food, cultural activities — custom plans for groups and athletes." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,8 @@
 
     <main>
       <!-- Hero -->
-      <section class="hero">
+      <section class="hero bg-hero">
+        <div class="overlay"></div>
         <div class="hero-inner">
           <div class="caps">Empordà — Catalonia, Spain</div>
           <h1>Tailored cycling tours & training camps for cyclists, runners and triathletes</h1>
@@ -41,41 +42,33 @@
             <a href="#trips" class="btn btn-ghost">See Trip Options</a>
           </div>
         </div>
-
-        <div class="hero-media">
-          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1c7d6fb7f2b6c3b9b4d6a1b1e0b9d2b2" alt="Cyclists riding in Empordà landscape">
-        </div>
       </section>
 
       <!-- About -->
-      <section id="about">
-        <div class="grid two-col">
-          <div>
-            <h2>Who we are</h2>
-            <p class="muted">We are local guides and coaches with years of experience organizing cycling tours and performance-oriented training camps in Empordà. We design every trip to match the fitness level and cultural interests of your group.</p>
-          </div>
-
-          <aside class="card">
-            <h3 style="margin-top:0">Quick facts</h3>
-            <ul style="padding-left:18px;margin:8px 0;color:var(--muted)">
-              <li>Best seasons: Spring & Fall</li>
-              <li>Surface: paved coastal and inland roads</li>
-              <li>Airports: Barcelona (1.5h), Girona (25min)</li>
-            </ul>
-          </aside>
+      <section id="about" class="bg-about">
+        <div class="overlay"></div>
+        <div>
+          <h2>Who we are</h2>
+          <p>We are local guides and coaches with years of experience organizing cycling tours and performance-oriented training camps in Empordà. We design every trip to match the fitness level and cultural interests of your group.</p>
         </div>
       </section>
 
       <!-- Trips -->
-      <section id="trips">
-        <h2>Cycling & Leisure Trips</h2>
-        <p class="muted">Ideal for groups who want relaxed mornings on the bike combined with excellent food and cultural visits in the afternoon.</p>
+      <section id="trips" class="bg-trips">
+        <div class="overlay"></div>
+        <div>
+          <h2>Cycling & Leisure Trips</h2>
+          <p>Ideal for groups who want relaxed mornings on the bike combined with excellent food and cultural visits in the afternoon.</p>
+        </div>
       </section>
 
       <!-- Camps -->
-      <section id="camps">
-        <h2>Training Camps — Cycling, Running & Triathlon</h2>
-        <p class="muted">Performance-focused camps designed for athletes and teams.</p>
+      <section id="camps" class="bg-camps">
+        <div class="overlay"></div>
+        <div>
+          <h2>Training Camps — Cycling, Running & Triathlon</h2>
+          <p>Performance-focused camps designed for athletes and teams.</p>
+        </div>
       </section>
 
       <!-- Gallery -->
@@ -89,17 +82,20 @@
       </section>
 
       <!-- Contact -->
-      <section id="contact">
-        <h2>Contact</h2>
-        <p class="muted">Ready to plan? Fill the form below.</p>
-        <form id="planForm">
-          <label>Name<input type="text" name="name" required></label>
-          <label>Email<input type="email" name="email" required></label>
-          <label>Dates<input type="text" name="dates" required></label>
-          <label>Message<textarea name="message"></textarea></label>
-          <button type="submit" class="btn btn-primary">Send request</button>
-          <div id="formStatus" class="small muted">We will reply within 48 hours</div>
-        </form>
+      <section id="contact" class="bg-contact">
+        <div class="overlay"></div>
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">Ready to plan? Fill the form below.</p>
+          <form id="planForm">
+            <label>Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+            <label>Dates<input type="text" name="dates" required></label>
+            <label>Message<textarea name="message"></textarea></label>
+            <button type="submit" class="btn btn-primary">Send request</button>
+            <div id="formStatus" class="small muted">We will reply within 48 hours</div>
+          </form>
+        </div>
       </section>
     </main>
 
