@@ -3,75 +3,69 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Empordà Cycling & Training Camps — Tailored Trips</title>
-  <meta name="description" content="Tailored cycling tours and training camps in Empordà, Catalonia. Morning rides, great food, cultural activities — custom plans for groups and athletes." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Empordà Cycling & Training Camps</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
     <div class="logo">
       <div class="mark">E</div>
       <div>
-        <div style="font-weight:800">Empordà Cycling</div>
-        <div class="small muted">Tailored cycling & training trips</div>
+        <div class="logo-text">Empordà Cycling</div>
+        <div class="small muted">Tailored trips & training camps</div>
       </div>
     </div>
     <nav>
       <a href="#about">About</a>
       <a href="#trips">Trips</a>
-      <a href="#camps">Training Camps</a>
+      <a href="#camps">Camps</a>
       <a href="#gallery">Gallery</a>
-      <a href="#contact" class="btn btn-primary" style="padding:8px 12px">Plan your trip</a>
+      <a href="#contact" class="btn btn-primary">Plan Trip</a>
     </nav>
   </header>
 
   <main>
     <!-- Hero -->
-    <section class="hero bg-hero overlay-bg">
+    <section class="hero">
       <div class="overlay"></div>
       <div class="section-content">
-        <div class="caps">Empordà — Catalonia, Spain</div>
-        <h1>Tailored cycling tours & training camps for cyclists, runners and triathletes</h1>
-        <p class="lead">Morning rides exploring quiet coastal roads and rolling vineyards, hand-picked restaurants for lunch and dinner, and cultural stops in medieval villages. Everything tailored to your group’s fitness and leisure preferences.</p>
+        <h1>Empordà Cycling & Training Camps</h1>
+        <p class="lead">Morning rides, great food, cultural stops, and performance-focused training for cycling, running & triathlon. Everything tailored to your group.</p>
         <div class="cta-row">
-          <a href="#contact" class="btn btn-primary">Plan Your Custom Trip</a>
-          <a href="#trips" class="btn btn-ghost">See Trip Options</a>
+          <a href="#contact" class="btn btn-primary">Plan Your Trip</a>
+          <a href="#trips" class="btn btn-secondary">See Trips</a>
         </div>
       </div>
     </section>
 
     <!-- About -->
-    <section id="about" class="bg-about overlay-bg">
-      <div class="overlay"></div>
+    <section id="about" class="section-light">
       <div class="section-content">
-        <h2>Who we are</h2>
-        <p>We are local guides and coaches with years of experience organizing cycling tours and performance-oriented training camps in Empordà. We design every trip to match the fitness level and cultural interests of your group.</p>
+        <h2>About Us</h2>
+        <p>We are local guides and coaches with years of experience. We design trips and training camps matching your group’s fitness and cultural interests.</p>
       </div>
     </section>
 
     <!-- Trips -->
-    <section id="trips" class="bg-trips overlay-bg">
-      <div class="overlay"></div>
+    <section id="trips" class="section-light">
       <div class="section-content">
         <h2>Cycling & Leisure Trips</h2>
-        <p>Ideal for groups who want relaxed mornings on the bike combined with excellent food and cultural visits in the afternoon.</p>
+        <p>Relaxed morning rides combined with great food and cultural visits.</p>
       </div>
     </section>
 
     <!-- Camps -->
-    <section id="camps" class="bg-camps overlay-bg">
-      <div class="overlay"></div>
+    <section id="camps" class="section-light">
       <div class="section-content">
-        <h2>Training Camps — Cycling, Running & Triathlon</h2>
-        <p>Performance-focused camps designed for athletes and teams.</p>
+        <h2>Training Camps</h2>
+        <p>Performance-focused camps for cyclists, runners, and triathletes of all levels.</p>
       </div>
     </section>
 
     <!-- Gallery -->
-    <section id="gallery">
+    <section id="gallery" class="section-light">
       <h2>Gallery</h2>
       <div class="gallery">
         <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?q=80&w=800&auto=format&fit=crop" alt="Coastal road">
@@ -81,17 +75,15 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="bg-contact overlay-bg">
-      <div class="overlay"></div>
+    <section id="contact" class="section-light">
       <div class="section-content">
-        <h2>Contact</h2>
-        <p class="muted">Ready to plan? Fill the form below.</p>
+        <h2>Contact Us</h2>
         <form id="planForm">
           <label>Name<input type="text" name="name" required></label>
           <label>Email<input type="email" name="email" required></label>
           <label>Dates<input type="text" name="dates" required></label>
           <label>Message<textarea name="message"></textarea></label>
-          <button type="submit" class="btn btn-primary">Send request</button>
+          <button type="submit" class="btn btn-primary">Send Request</button>
           <div id="formStatus" class="small muted">We will reply within 48 hours</div>
         </form>
       </div>
@@ -99,7 +91,7 @@
   </main>
 
   <footer>
-    <div>© <strong>Empordà Cycling</strong> — All rights reserved</div>
+    <div>© Empordà Cycling — All rights reserved</div>
   </footer>
 
   <script src="script.js" defer></script>
